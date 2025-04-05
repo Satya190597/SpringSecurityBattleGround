@@ -88,6 +88,7 @@ It also takes care of:
 In short, it’s the behind the scenes manager that keeps your Java web app running smoothly.
 
 **Real Life Analogy**
+
 Think of the Servlet Container as a restaurant manager in a Java-themed diner 🍽️:
 - A customer **(the browser)** walks in and places an order **(HTTP request)**.
 - The manager **(Servlet Container)** grabs the right chef **(Servlet)**, gives them the order **(request object)**, and waits for them to cook up a dish **(response)**.
@@ -102,6 +103,8 @@ Think of the Servlet Container as a restaurant manager in a Java-themed diner �
 
 ### Filters.
 A Filter is a Java class that intercepts HTTP requests and responses to perform **pre-processing or post-processing** tasks. Filters are part of the Java Servlet API and are typically used for tasks like *authentication*, *logging*, *compression*, or *modifying request/response data*.
+
+![Servlets And Filters](https://raw.githubusercontent.com/Satya190597/SpringSecurityBattleGround/1679ef78148b7ae8eb67e7c344a44806c367fc0f/images/servlets-filters.png)
 
 **Resources**
 - https://www.scaler.com/topics/servlet-life-cycle/
