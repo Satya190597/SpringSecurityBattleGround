@@ -78,3 +78,31 @@ public class SecurityProperties {
 }
 
 ```
+### Servlet Containers.
+A Servlet Container (also known as a web container or servlet engine) is a core component of a web server or application server that provides the runtime environment for Java Servlets. It implements the Java Servlet Specification and is responsible for managing the entire lifecycle of servlets—from loading and initialization to handling requests and eventual destruction.
+It also takes care of:
+- Creating HttpServletRequest and HttpServletResponse objects.
+- Routing incoming HTTP requests to the correct servlet.
+- Managing user sessions using cookies or URL rewriting.
+- Handling multithreading so multiple users can be served concurrently.
+In short, it’s the behind the scenes manager that keeps your Java web app running smoothly.
+
+**Real Life Analogy**
+Think of the Servlet Container as a restaurant manager in a Java-themed diner 🍽️:
+- A customer **(the browser)** walks in and places an order **(HTTP request)**.
+- The manager **(Servlet Container)** grabs the right chef **(Servlet)**, gives them the order **(request object)**, and waits for them to cook up a dish **(response)**.
+- Once it’s ready, the manager serves it back to the customer.
+- The manager also remembers who the customer is **(session management)**.
+
+ **Example Of Servlet Container**
+ - Apache Tomcat.
+ - Jetty.
+ - JBoss.
+ - WebLogic.
+
+### Filters.
+A Filter is a Java class that intercepts HTTP requests and responses to perform **pre-processing or post-processing** tasks. Filters are part of the Java Servlet API and are typically used for tasks like *authentication*, *logging*, *compression*, or *modifying request/response data*.
+
+**Resources**
+- https://www.scaler.com/topics/servlet-life-cycle/
+- https://www.slainstitute.com/java-servlets-building-web-applications-using-java/
