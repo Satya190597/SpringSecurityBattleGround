@@ -109,3 +109,6 @@ A Filter is a Java class that intercepts HTTP requests and responses to perform 
 **Resources**
 - https://www.scaler.com/topics/servlet-life-cycle/
 - https://www.slainstitute.com/java-servlets-building-web-applications-using-java/
+
+### Spring Security Internal Flow.
+![Spring Security Internal Flow](https://raw.githubusercontent.com/Satya190597/SpringSecurityBattleGround/refs/heads/main/images/spring-security-internal-flow.png)
