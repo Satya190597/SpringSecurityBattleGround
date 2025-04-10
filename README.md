@@ -118,3 +118,5 @@ The **defaultSecurityFilterChain** implementation is responsible for default sec
 
 The DefaultSecurityFilterChain is a standard implementation of the **SecurityFilterChain interface** in Spring Security. It represents a chain of security filters that are applied to incoming HTTP requests based on specific request matching criteria. This filter chain is a core part of Spring Security's mechanism for securing web applications.
 
+![DefaultSecurityFilterChain](https://raw.githubusercontent.com/Satya190597/SpringSecurityBattleGround/refs/heads/main/images/defaultSecurityFilterChain.png)
+
