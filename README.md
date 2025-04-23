@@ -106,6 +106,11 @@ A Filter is a Java class that intercepts HTTP requests and responses to perform 
 
 ![Servlets And Filters](https://raw.githubusercontent.com/Satya190597/SpringSecurityBattleGround/1679ef78148b7ae8eb67e7c344a44806c367fc0f/images/servlets-filters.png)
 
+Spring Security is based on a chain of servlet filters. Each filter has a specific responsibility and depending on the configuration, filters are added or removed. We can add our custom filters as well based on the need. 
+
+**Difference Between Filter, GenericFilterBean And OncePerRequestFilter**
+|Aspect|Filter (javax.servlet.Filter) | GenericFilterBean (Spring) | OncePerRequestFilter (Spring) |
+
 **Resources**
 - https://www.scaler.com/topics/servlet-life-cycle/
 - https://www.slainstitute.com/java-servlets-building-web-applications-using-java/
